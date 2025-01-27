@@ -41,6 +41,6 @@ for i in  range(n):
   b.append(e)
 
 insertionsort(a,n)
-print("Sorted data (bubble)",a)
+print("Sorted data (insertion)",a)
 selectionsort(b,n)
 print("Sorted data (selection)",b)
