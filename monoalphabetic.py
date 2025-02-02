@@ -3,7 +3,7 @@ import string
 
 def get_key_from_user():
     letters = string.ascii_lowercase
-    print("Enter a 26-letter substitution key (must contain all letters exactly once):")
+    print("Enter a 26-letter substitution key:")
     while True:
         user_key = input("Key: ").lower()
         if len(user_key) == 26 and set(user_key) == set(letters):
